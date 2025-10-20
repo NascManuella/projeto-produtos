@@ -20,22 +20,21 @@ O sistema oferece as seguintes funcionalidades:
 ## Estrutura do Projeto
 
 O projeto segue uma organização simples, separando modelos, repositórios e views:
-
 br.com.fiap.produtos
 │
 ├── model
-│ ├── Produto.java
-│ └── Categoria.java
+│   ├── Produto.java
+│   └── Categoria.java
 │
 ├── repository
-│ ├── ProdutoCollectionRepository.java
-│ └── CategoriaCollectionRepository.java
+│   ├── ProdutoCollectionRepository.java
+│   └── CategoriaCollectionRepository.java
 │
 ├── view
-│ ├── ProdutoView.java
-│ ├── CategoriaView.java
-│ ├── OpcaoView.java
-│ └── Opcao.java
+│   ├── ProdutoView.java
+│   ├── CategoriaView.java
+│   ├── OpcaoView.java
+│   └── Opcao.java
 │
 └── Main.java
 
@@ -56,9 +55,9 @@ br.com.fiap.produtos
 ---
 
 ## Como Executar
-
-1. Clone o repositório:
 ```bash
+1. Clone o repositório:
+
 git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 Abra o projeto em sua IDE preferida (Eclipse, IntelliJ, NetBeans, etc).
 Execute a classe Main.java.
